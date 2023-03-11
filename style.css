@@ -99,3 +99,31 @@ h3 {
   padding: 10px;
   border: 1px solid rgb(26, 26, 26);
 }
+
+
+/* Écrans de grande taille */
+@media (min-width: 992px) {
+  #section1 {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin-right: 2%;
+  }
+
+  #section2 {
+    display: inline-block;
+    width: 67%;
+    vertical-align: top;
+  }
+}
+
+/* Écrans de petite et moyenne taille */
+@media (max-width: 991px) {
+
+  #section1,
+  #section2 {
+    display: block;
+    width: 100%;
+    margin: 0;
+  }
+}
